@@ -3,12 +3,12 @@ import drSantiagoProfile from "@/assets/dr-santiago-profile.jpg";
 
 const ProblemSection = () => {
   const painPoints = [
-    "Waking up exhausted despite 8+ hours of sleep",
-    "Brain fog affecting critical business decisions", 
-    "Stress eating destroying your energy levels",
-    "Constantly running on caffeine and adrenaline",
-    "Missing family time due to chronic fatigue",
-    "Feeling older than your age despite success"
+    "Acordar exausto mesmo dormindo mais de 8 horas",
+    "Névoa mental afetando decisões críticas de negócios", 
+    "Stress destruindo seus níveis de energia",
+    "Vivendo constantemente à base de cafeína e adrenalina",
+    "Perdendo tempo em família devido ao cansaço crônico",
+    "Se sentindo mais velho que sua idade apesar do sucesso"
   ];
 
   return (
@@ -31,11 +31,11 @@ const ProblemSection = () => {
           <div className="space-y-8 animate-slide-up">
             <div>
               <h2 className="text-section-title mb-6">
-                Does your routine look like this?
+                Sua rotina se parece com isso?
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                You've built a successful business, but your body is paying the price. 
-                Sound familiar?
+                Você construiu um negócio de sucesso, mas seu corpo está pagando o preço. 
+                Soa familiar?
               </p>
             </div>
 
@@ -56,11 +56,11 @@ const ProblemSection = () => {
                 <Check className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
                 <div>
                   <h3 className="text-xl font-semibold text-primary mb-2">
-                    There's a better way
+                    Existe uma forma melhor
                   </h3>
                   <p className="text-foreground">
-                    What if I told you that the world's most successful CEOs have cracked the code to 
-                    <span className="font-semibold text-primary"> unlimited energy, laser focus, and antifragile resilience?</span>
+                    E se eu te dissesse que os CEOs mais bem-sucedidos do mundo descobriram o segredo para 
+                    <span className="font-semibold text-primary"> energia ilimitada, foco a laser e resistência antifrágil?</span>
                   </p>
                 </div>
               </div>

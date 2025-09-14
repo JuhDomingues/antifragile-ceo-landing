@@ -17,8 +17,8 @@ const FinalCTASection = () => {
     
     if (!formData.name || !formData.email) {
       toast({
-        title: "Please fill in all fields",
-        description: "Both name and email are required to register.",
+        title: "Por favor, preencha todos os campos",
+        description: "Nome e email são obrigatórios para se registrar.",
         variant: "destructive"
       });
       return;
@@ -30,8 +30,8 @@ const FinalCTASection = () => {
     await new Promise(resolve => setTimeout(resolve, 1500));
     
     toast({
-      title: "🎉 Registration Successful!",
-      description: "Check your email for masterclass access details.",
+      title: "🎉 Registro Realizado com Sucesso!",
+      description: "Verifique seu email para os detalhes de acesso à masterclass.",
     });
     
     setFormData({ name: "", email: "" });
@@ -51,11 +51,11 @@ const FinalCTASection = () => {
         <div className="animate-fade-in space-y-8">
           <div>
             <h2 className="text-section-title mb-6">
-              Ready to Become an Antifragile CEO?
+              Pronto Para se Tornar um CEO Antifrágil?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Join this exclusive masterclass and discover the biohacking secrets 
-              that will transform your energy, focus, and business performance forever.
+              Participe desta masterclass exclusiva e descubra os segredos de biohacking 
+              que transformarão sua energia, foco e performance empresarial para sempre.
             </p>
           </div>
 
@@ -64,22 +64,22 @@ const FinalCTASection = () => {
             <div className="flex items-center justify-center gap-3 p-4 rounded-lg bg-muted/50 border border-border">
               <Calendar className="w-5 h-5 text-primary" />
               <div className="text-left">
-                <div className="font-semibold text-sm">Date</div>
-                <div className="text-sm text-muted-foreground">Next Available Session</div>
+                <div className="font-semibold text-sm">Data</div>
+                <div className="text-sm text-muted-foreground">Próxima Sessão Disponível</div>
               </div>
             </div>
             <div className="flex items-center justify-center gap-3 p-4 rounded-lg bg-muted/50 border border-border">
               <Clock className="w-5 h-5 text-primary" />
               <div className="text-left">
-                <div className="font-semibold text-sm">Duration</div>
-                <div className="text-sm text-muted-foreground">90 Minutes + Q&A</div>
+                <div className="font-semibold text-sm">Duração</div>
+                <div className="text-sm text-muted-foreground">90 Minutos + Perguntas</div>
               </div>
             </div>
             <div className="flex items-center justify-center gap-3 p-4 rounded-lg bg-muted/50 border border-border">
               <Users className="w-5 h-5 text-primary" />
               <div className="text-left">
-                <div className="font-semibold text-sm">Format</div>
-                <div className="text-sm text-muted-foreground">Live Online Event</div>
+                <div className="font-semibold text-sm">Formato</div>
+                <div className="text-sm text-muted-foreground">Evento Online ao Vivo</div>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ const FinalCTASection = () => {
               <Input
                 type="text"
                 name="name"
-                placeholder="Enter your full name"
+                placeholder="Digite seu nome completo"
                 value={formData.name}
                 onChange={handleInputChange}
                 className="h-12 text-center bg-background border-border focus:border-primary text-lg"
@@ -99,7 +99,7 @@ const FinalCTASection = () => {
               <Input
                 type="email"
                 name="email"
-                placeholder="Enter your email address"
+                placeholder="Digite seu endereço de email"
                 value={formData.email}
                 onChange={handleInputChange}
                 className="h-12 text-center bg-background border-border focus:border-primary text-lg"
@@ -110,7 +110,7 @@ const FinalCTASection = () => {
                 disabled={isSubmitting}
                 className="w-full h-14 text-xl font-bold bg-gradient-to-r from-primary to-yellow-400 hover:from-yellow-400 hover:to-primary text-primary-foreground shadow-gold animate-glow disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? "REGISTERING..." : "I WANT TO BE AN ANTIFRAGILE CEO"}
+                {isSubmitting ? "REGISTRANDO..." : "QUERO SER UM CEO ANTIFRÁGIL"}
               </Button>
             </form>
           </div>
@@ -118,12 +118,12 @@ const FinalCTASection = () => {
           {/* Trust Indicators */}
           <div className="pt-8 space-y-4">
             <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
-              <span>✅ 100% Free</span>
-              <span>✅ No Spam</span>
-              <span>✅ Instant Access</span>
+              <span>✅ 100% Gratuito</span>
+              <span>✅ Sem Spam</span>
+              <span>✅ Acesso Instantâneo</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Join 10,000+ entrepreneurs who've already transformed their performance
+              Junte-se a mais de 10.000 empreendedores que já transformaram sua performance
             </p>
           </div>
         </div>

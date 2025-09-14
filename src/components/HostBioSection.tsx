@@ -5,19 +5,19 @@ const HostBioSection = () => {
   const achievements = [
     {
       icon: BookOpen,
-      text: "Best-selling author of 'CEO Antifrágil'"
+      text: "Autor best-seller de 'CEO Antifrágil'"
     },
     {
       icon: Users,
-      text: "Transformed 10,000+ entrepreneurs"
+      text: "Transformou mais de 10.000 empreendedores"
     },
     {
       icon: Award,
-      text: "Featured in Forbes, Entrepreneur, Inc."
+      text: "Destaque na Forbes, Entrepreneur, Inc."
     },
     {
       icon: TrendingUp,
-      text: "Helped clients increase productivity by 300%"
+      text: "Ajudou clientes a aumentar produtividade em 300%"
     }
   ];
 
@@ -44,22 +44,22 @@ const HostBioSection = () => {
           <div className="space-y-8 animate-slide-up">
             <div>
               <h2 className="text-section-title mb-6">
-                Meet Dr. Santiago
+                Conheça o Dr. Santiago
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Dr. Santiago is a medical doctor turned serial entrepreneur who discovered 
-                  the hard way that traditional medicine wasn't designed for high-performance business leaders.
+                  Dr. Santiago é um médico que se tornou empreendedor serial e descobriu 
+                  da forma mais difícil que a medicina tradicional não foi projetada para líderes empresariais de alta performance.
                 </p>
                 <p>
-                  After burning out twice while building multi-million dollar companies, 
-                  he spent 7 years researching and testing cutting-edge biohacking protocols 
-                  with elite athletes, Navy SEALs, and Fortune 500 CEOs.
+                  Após ter burnout duas vezes enquanto construía empresas multimilionárias, 
+                  ele passou 7 anos pesquisando e testando protocolos de biohacking de ponta 
+                  com atletas de elite, Navy SEALs e CEOs da Fortune 500.
                 </p>
                 <p className="text-foreground font-medium">
-                  The result? The <span className="text-primary">"Antifragile CEO Method"</span> - 
-                  a systematic approach that makes entrepreneurs stronger under stress 
-                  while optimizing their health, energy, and cognitive performance.
+                  O resultado? O <span className="text-primary">"Método CEO Antifrágil"</span> - 
+                  uma abordagem sistemática que torna empreendedores mais fortes sob stress 
+                  enquanto otimiza sua saúde, energia e performance cognitiva.
                 </p>
               </div>
             </div>
@@ -78,9 +78,9 @@ const HostBioSection = () => {
 
             <div className="p-6 rounded-xl bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20">
               <blockquote className="text-foreground italic">
-                "I've dedicated my life to solving the entrepreneur's dilemma: 
-                How to build billion-dollar companies without sacrificing your health, 
-                relationships, or sanity in the process."
+                "Dediquei minha vida a resolver o dilema do empreendedor: 
+                Como construir empresas bilionárias sem sacrificar sua saúde, 
+                relacionamentos ou sanidade mental no processo."
               </blockquote>
               <cite className="block mt-3 text-primary font-semibold not-italic">
                 - Dr. Santiago

@@ -16,12 +16,12 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-6xl mx-auto text-center animate-fade-in">
         <div className="space-y-8">
           <h1 className="text-hero bg-gradient-to-r from-foreground via-foreground to-primary bg-clip-text text-transparent">
-            Is your body limiting your company's growth?
+            Seu corpo está limitando o crescimento da sua empresa?
           </h1>
           
           <p className="text-hero-sub text-muted-foreground max-w-3xl mx-auto">
-            Join Dr. Santiago's exclusive masterclass and discover the biohacking secrets 
-            that transform exhausted entrepreneurs into <span className="text-primary font-semibold">antifragile CEOs</span>
+            Participe da masterclass exclusiva do Dr. Santiago e descubra os segredos de biohacking 
+            que transformam empreendedores esgotados em <span className="text-primary font-semibold">CEOs antifrágeis</span>
           </p>
           
           <div className="pt-8">
@@ -30,13 +30,13 @@ const HeroSection = () => {
               className="btn-hero animate-glow hover:shadow-2xl transform hover:scale-110 transition-all duration-300"
               size="lg"
             >
-              GET FREE ACCESS NOW
+              QUERO ACESSO GRATUITO AGORA
             </Button>
           </div>
           
           <div className="pt-12 text-sm text-muted-foreground">
-            <p>🔥 Limited Time: Free Masterclass Registration</p>
-            <p className="mt-2">Join 10,000+ successful entrepreneurs who've transformed their performance</p>
+            <p>🔥 Por Tempo Limitado: Inscrição Gratuita na Masterclass</p>
+            <p className="mt-2">Junte-se a mais de 10.000 empreendedores de sucesso que transformaram sua performance</p>
           </div>
         </div>
       </div>

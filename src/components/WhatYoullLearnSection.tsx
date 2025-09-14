@@ -4,23 +4,23 @@ const WhatYoullLearnSection = () => {
   const features = [
     {
       icon: Brain,
-      title: "The Biohacking Pillar",
-      description: "Discover the 3 foundational biohacks that elite CEOs use to optimize their cognitive performance and decision-making ability."
+      title: "O Pilar do Biohacking",
+      description: "Descubra os 3 biohacks fundamentais que CEOs de elite usam para otimizar sua performance cognitiva e capacidade de tomada de decisão."
     },
     {
       icon: Zap,
-      title: "The Energy Protocol",
-      description: "Learn the exact morning routine that gives you 10+ hours of sustained energy without crashes, caffeine dependency, or burnout."
+      title: "O Protocolo de Energia",
+      description: "Aprenda a rotina matinal exata que te dá mais de 10 horas de energia sustentada sem quedas, dependência de cafeína ou burnout."
     },
     {
       icon: Shield,
-      title: "The Antifragile Framework", 
-      description: "Master the stress-optimization system that makes you stronger under pressure while protecting your long-term health."
+      title: "O Framework Antifrágil", 
+      description: "Domine o sistema de otimização do stress que te torna mais forte sob pressão enquanto protege sua saúde a longo prazo."
     },
     {
       icon: Target,
-      title: "The CEO Recovery Method",
-      description: "Implement the 20-minute evening protocol that guarantees deep sleep and cellular recovery for peak next-day performance."
+      title: "O Método de Recuperação CEO",
+      description: "Implemente o protocolo noturno de 20 minutos que garante sono profundo e recuperação celular para performance máxima no dia seguinte."
     }
   ];
 
@@ -29,11 +29,11 @@ const WhatYoullLearnSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-section-title mb-6">
-            What You'll Learn in This Masterclass
+            O Que Você Vai Aprender Nesta Masterclass
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            In just 90 minutes, you'll discover the exact strategies that transformed 
-            exhausted entrepreneurs into unstoppable, antifragile CEOs
+            Em apenas 90 minutos, você descobrirá as estratégias exatas que transformaram 
+            empreendedores esgotados em CEOs imparáveis e antifrágeis
           </p>
         </div>
 
@@ -62,7 +62,7 @@ const WhatYoullLearnSection = () => {
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-primary/10 rounded-full border border-primary/20">
             <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
             <span className="text-primary font-medium">
-              Plus: Exclusive Q&A session with Dr. Santiago
+              Bônus: Sessão exclusiva de perguntas e respostas com Dr. Santiago
             </span>
           </div>
         </div>
