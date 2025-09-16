@@ -1,7 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Users, Calendar } from "lucide-react";
+import { useEffect } from "react";
 
 const ThankYou = () => {
+  useEffect(() => {
+    // Track SubmitApplication event when thank you page loads
+    if (typeof window !== 'undefined' && window.fbq) {
+      window.fbq('track', 'SubmitApplication');
+    }
+  }, []);
+
   const handleWhatsAppRedirect = () => {
     window.open('https://chat.whatsapp.com/KfaeG1TLYwJ6COH26Y5PER?mode=ems_copy_t', '_blank');
   };
