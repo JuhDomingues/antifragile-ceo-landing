@@ -130,7 +130,7 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fadeIn 0.8s ease-out",
         "slide-up": "slideUp 0.8s ease-out",
-        "glow": "glow 6s ease-in-out infinite",
+        "glow": "glow 10s ease-in-out infinite",
       },
     },
   },
