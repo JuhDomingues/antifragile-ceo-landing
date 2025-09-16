@@ -1,5 +1,5 @@
 import { Award, Users, BookOpen, TrendingUp } from "lucide-react";
-import ceoAntifragilBook from "@/assets/ceo-antifragil-book.jpg";
+import drSantiago from "@/assets/dr-santiago.png";
 
 const HostBioSection = () => {
   const achievements = [
@@ -25,17 +25,17 @@ const HostBioSection = () => {
     <section className="py-32 px-4 bg-gradient-to-br from-background to-card/50">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: Book Cover */}
+          {/* Left: Dr. Santiago Photo */}
           <div className="animate-slide-up">
             <div className="relative max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-transparent rounded-2xl blur-3xl"></div>
               <img 
-                src={ceoAntifragilBook}
-                alt="CEO Antifrágil Book by Dr. Santiago"
+                src={drSantiago}
+                alt="Dr. Santiago - Biohacking Expert"
                 className="relative w-full rounded-2xl shadow-hero hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-lg font-bold text-sm shadow-lg">
-                #1 Bestseller
+                Especialista
               </div>
             </div>
           </div>

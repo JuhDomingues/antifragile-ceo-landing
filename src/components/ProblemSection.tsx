@@ -1,5 +1,5 @@
 import { Check, X } from "lucide-react";
-import drSantiagoProfile from "@/assets/dr-santiago-profile.jpg";
+import ceoAntifragilBook from "@/assets/ceo-antifragil-book.jpg";
 
 const ProblemSection = () => {
   const painPoints = [
@@ -15,13 +15,13 @@ const ProblemSection = () => {
     <section className="py-32 px-4 bg-gradient-to-br from-background to-muted/20">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: Dr. Santiago Image */}
+          {/* Left: Book Image */}
           <div className="animate-slide-up">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent rounded-2xl blur-3xl"></div>
               <img 
-                src={drSantiagoProfile}
-                alt="Dr. Santiago - Biohacking Expert"
+                src={ceoAntifragilBook}
+                alt="CEO Antifrágil Book"
                 className="relative w-full max-w-lg mx-auto rounded-2xl shadow-hero hover:scale-105 transition-transform duration-500"
               />
             </div>
