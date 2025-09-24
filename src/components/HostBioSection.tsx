@@ -5,15 +5,15 @@ const HostBioSection = () => {
   const achievements = [
     {
       icon: BookOpen,
-      text: "Autor best-seller de 'CEO Antifrágil'"
+      text: "Autor do livro CEO Antifragil"
     },
     {
       icon: Users,
-      text: "Transformou mais de 10.000 empreendedores"
+      text: "Transformou 500 empreendedores"
     },
     {
       icon: Award,
-      text: "Destaque na Forbes, Entrepreneur, Inc."
+      text: "Ultraman"
     },
     {
       icon: TrendingUp,
@@ -22,11 +22,14 @@ const HostBioSection = () => {
   ];
 
   return (
-    <section className="py-32 px-4 bg-gradient-to-br from-background to-card/50">
+    <section className="py-16 md:py-32 px-4 bg-gradient-to-br from-background to-card/50">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left: Dr. Santiago Photo */}
           <div className="animate-slide-up">
+            <h2 className="text-section-title mb-6 text-center">
+              Conheça o Dr. Santiago
+            </h2>
             <div className="relative max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-transparent rounded-2xl blur-3xl"></div>
               <img 
@@ -35,7 +38,7 @@ const HostBioSection = () => {
                 className="relative w-full rounded-2xl shadow-hero hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-lg font-bold text-sm shadow-lg">
-                Especialista
+                Médico nutrólogo/Escritor/Empresário
               </div>
             </div>
           </div>
@@ -43,18 +46,18 @@ const HostBioSection = () => {
           {/* Right: Bio */}
           <div className="space-y-8 animate-slide-up">
             <div>
-              <h2 className="text-section-title mb-6">
-                Conheça o Dr. Santiago
-              </h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
                   Dr. Santiago é um médico que se tornou empreendedor serial e descobriu 
                   da forma mais difícil que a medicina tradicional não foi projetada para líderes empresariais de alta performance.
                 </p>
                 <p>
-                  Após ter burnout duas vezes enquanto construía empresas multimilionárias, 
-                  ele passou 7 anos pesquisando e testando protocolos de biohacking de ponta 
-                  com atletas de elite, Navy SEALs e CEOs da Fortune 500.
+                  Após dois episódios de burnout e quase perder sua família, o Dr. Santiago Vencina 
+                  dedicou 7 anos à pesquisa e aplicação de protocolos avançados de biohacking. 
+                  CEOs como Pablo Marçal, Nezio Monteiro, Tiago Rocha e Hewerton Scheidegger 
+                  elevaram sua performance ao extremo — e como prova da eficácia, todos 
+                  (incluindo o Dr. Santiago) completaram o Ultraman: 10 km de natação, 
+                  421 km de ciclismo e 84 km de corrida em 3 dias.
                 </p>
                 <p className="text-foreground font-medium">
                   O resultado? O <span className="text-primary">"Método CEO Antifrágil"</span> - 

@@ -25,14 +25,14 @@ const WhatYoullLearnSection = () => {
   ];
 
   return (
-    <section className="py-32 px-4 bg-gradient-to-br from-muted/10 to-background">
+    <section className="py-16 md:py-32 px-4 bg-gradient-to-br from-muted/10 to-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-section-title mb-6">
             O Que Você Vai Aprender Nesta Masterclass
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Em apenas 90 minutos, você descobrirá as estratégias exatas que transformaram 
+            Você descobrirá as estratégias exatas que transformaram 
             empreendedores esgotados em CEOs imparáveis e antifrágeis
           </p>
         </div>

@@ -9,7 +9,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 md:px-4 py-20 md:py-16 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-6 md:px-4 py-12 md:py-16 overflow-hidden">
       <div className="absolute inset-0 bg-hero-gradient"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,hsl(51_100%_50%/0.1)_0%,transparent_50%)]"></div>
       
@@ -27,7 +27,7 @@ const HeroSection = () => {
           <div className="pt-6 md:pt-8 px-4 md:px-0">
             <Button 
               onClick={scrollToForm}
-              className="btn-hero animate-glow hover:shadow-2xl transform hover:scale-110 transition-all duration-300 w-full md:w-auto"
+              className="btn-hero hover:shadow-2xl transform hover:scale-110 transition-all duration-300 w-full md:w-auto"
               size="lg"
             >
               QUERO ACESSO GRATUITO AGORA
@@ -35,8 +35,8 @@ const HeroSection = () => {
           </div>
           
           <div className="pt-8 md:pt-12 text-sm text-muted-foreground px-4 md:px-0">
-            <p>🔥 Por Tempo Limitado: Inscrição Gratuita na Masterclass</p>
-            <p className="mt-2">Junte-se a mais de 10.000 empreendedores de sucesso que transformaram sua performance</p>
+            <p>Inscrição gratuita por tempo limitado</p>
+            <p className="mt-2">Junte-se a centenas de empresários que transformaram sua performance</p>
           </div>
         </div>
       </div>

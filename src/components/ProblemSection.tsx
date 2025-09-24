@@ -12,23 +12,9 @@ const ProblemSection = () => {
   ];
 
   return (
-    <section className="py-32 px-4 bg-gradient-to-br from-background to-muted/20">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left: Book Image */}
-          <div className="animate-slide-up">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent rounded-2xl blur-3xl"></div>
-              <img 
-                src={ceoAntifragilBook}
-                alt="CEO Antifrágil Book"
-                className="relative w-full max-w-lg mx-auto rounded-2xl shadow-hero hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-          </div>
-
-          {/* Right: Problem Statement */}
-          <div className="space-y-8 animate-slide-up">
+    <section className="py-16 md:py-32 px-4 bg-gradient-to-br from-background to-muted/20">
+      <div className="max-w-4xl mx-auto">
+        <div className="space-y-8 animate-slide-up">
             <div>
               <h2 className="text-section-title mb-6">
                 Sua rotina se parece com isso?
@@ -51,6 +37,29 @@ const ProblemSection = () => {
               ))}
             </div>
 
+            {/* Título e Subtítulo */}
+            <div className="text-center py-6 md:py-12">
+              <h3 className="text-3xl font-bold text-foreground mb-4">
+                Ciência aplicada à alta performance
+              </h3>
+              <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+                Conteúdo baseado na obra do Dr. Santiago Vencina, descubra os protocolos para 
+                Hackear seu corpo e alcançar a energia, foco e alta performance.
+              </p>
+              
+              {/* Imagem do Livro */}
+              <div className="animate-slide-up">
+                <div className="relative inline-block">
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent rounded-2xl blur-3xl"></div>
+                  <img 
+                    src={ceoAntifragilBook}
+                    alt="CEO Antifrágil Book"
+                    className="relative w-full max-w-sm mx-auto rounded-2xl shadow-hero hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              </div>
+            </div>
+
             <div className="pt-8 p-6 rounded-xl bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20">
               <div className="flex items-start gap-3 mb-4">
                 <Check className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
@@ -65,7 +74,6 @@ const ProblemSection = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>

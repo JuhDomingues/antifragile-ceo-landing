@@ -69,7 +69,7 @@ const FinalCTASection = () => {
   };
 
   return (
-    <section id="final-cta" className="py-32 px-4 bg-gradient-to-br from-card to-background">
+    <section id="final-cta" className="py-16 md:py-32 px-4 bg-gradient-to-br from-card to-background">
       <div className="max-w-4xl mx-auto text-center">
         <div className="animate-fade-in space-y-8">
           <div>
@@ -83,22 +83,15 @@ const FinalCTASection = () => {
           </div>
 
           {/* Event Details */}
-          <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto mb-12">
-            <div className="flex items-center justify-center gap-3 p-4 rounded-lg bg-muted/50 border border-border">
+          <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-12">
+            <div className="flex items-center justify-start md:justify-center gap-3 p-4 rounded-lg bg-muted/50 border border-border">
               <Calendar className="w-5 h-5 text-primary" />
               <div className="text-left">
                 <div className="font-semibold text-sm">Data</div>
-                <div className="text-sm text-muted-foreground">Próxima Sessão Disponível</div>
+                <div className="text-sm text-muted-foreground">16/10/25 às 18h30 USA / 19H30 BRA</div>
               </div>
             </div>
-            <div className="flex items-center justify-center gap-3 p-4 rounded-lg bg-muted/50 border border-border">
-              <Clock className="w-5 h-5 text-primary" />
-              <div className="text-left">
-                <div className="font-semibold text-sm">Duração</div>
-                <div className="text-sm text-muted-foreground">90 Minutos + Perguntas</div>
-              </div>
-            </div>
-            <div className="flex items-center justify-center gap-3 p-4 rounded-lg bg-muted/50 border border-border">
+            <div className="flex items-center justify-start md:justify-center gap-3 p-4 rounded-lg bg-muted/50 border border-border">
               <Users className="w-5 h-5 text-primary" />
               <div className="text-left">
                 <div className="font-semibold text-sm">Formato</div>
@@ -178,7 +171,7 @@ const FinalCTASection = () => {
               <span>✅ Acesso Instantâneo</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Junte-se a mais de 10.000 empreendedores que já transformaram sua performance
+              Junte-se a mais de 500 empresários que transformaram sua performance
             </p>
           </div>
         </div>

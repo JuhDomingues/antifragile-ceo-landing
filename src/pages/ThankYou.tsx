@@ -20,7 +20,7 @@ const ThankYou = () => {
         <div className="space-y-8">
           {/* Success Icon */}
           <div className="flex justify-center">
-            <div className="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center animate-glow">
+            <div className="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center">
               <CheckCircle className="w-12 h-12 text-primary" />
             </div>
           </div>
@@ -71,7 +71,7 @@ const ThankYou = () => {
           <div className="pt-4">
             <Button
               onClick={handleWhatsAppRedirect}
-              className="w-full md:w-auto h-16 px-12 text-xl font-bold bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white shadow-lg animate-glow transform hover:scale-105 transition-all duration-300"
+              className="w-full md:w-auto h-16 px-12 text-xl font-bold bg-gradient-to-r from-green-600 to-green-500 hover:from-green-700 hover:to-green-600 text-white shadow-lg transform hover:scale-105 transition-all duration-300"
               size="lg"
             >
               📱 ENTRAR NO GRUPO DO WHATSAPP
